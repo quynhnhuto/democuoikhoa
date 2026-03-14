@@ -16,22 +16,12 @@ const login = (event) =>{
 
     let users = JSON.parse(localStorage.getItem("users")) || {};
 
-    if (users[email]){
-        alert("Email đã được đăng ký!");
-        return;
-    }
-
-    users[email] = {
-        username: username,
-        email: email,
-        password: password
-    };
 
     localStorage.setItem("users", JSON.stringify(users));
 
-    alert("Đăng ký thành công!");
+
 
     window.location.href = "main.html";
 }
 
-document.querySelector("#registerForm").addEventListener("submit", register);
+document.querySelector("#loginForm").addEventListener("submit", login);
