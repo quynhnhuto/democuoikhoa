@@ -1,0 +1,166 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Có đôi điều",
+      "artist": "Shiki",
+      "duration": "3:45",
+      "image": "https://bizweb.dktcdn.net/100/411/628/products/shiki.jpg?v=1721198170180",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+      "year": 2020,
+      "genre": "Pop",
+      "likes": 15420
+    },
+    {
+      "id": 2,
+      "title": "Lặng Im",
+      "artist": "Ariana Grande",
+      "duration": "3:20",
+      "image": "https://via.placeholder.com/200/4ECDC4/ffffff?text=Song+2",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+      "year": 2021,
+      "genre": "Pop",
+      "likes": 25630
+    },
+    {
+      "id": 3,
+      "title": "Tròn Khác Lạ",
+      "artist": "The Weeknd",
+      "duration": "3:55",
+      "image": "https://via.placeholder.com/200/95E1D3/ffffff?text=Song+3",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+      "year": 2019,
+      "genre": "R&B",
+      "likes": 32100
+    },
+    {
+      "id": 4,
+      "title": "Tình Yêu Không Kết",
+      "artist": "Khalid",
+      "duration": "4:10",
+      "image": "https://via.placeholder.com/200/F38181/ffffff?text=Song+4",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+      "year": 2020,
+      "genre": "Pop",
+      "likes": 18750
+    },
+    {
+      "id": 5,
+      "title": "Chúng Ta Còn Yêu Nhau",
+      "artist": "Sơn Tùng M-TP",
+      "duration": "3:30",
+      "image": "https://via.placeholder.com/200/FF6B6B/ffffff?text=Top+1",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+      "year": 2022,
+      "genre": "V-Pop",
+      "likes": 45000
+    },
+    {
+      "id": 6,
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "duration": "3:20",
+      "image": "https://via.placeholder.com/200/4ECDC4/ffffff?text=Top+2",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+      "year": 2019,
+      "genre": "Synthwave",
+      "likes": 52340
+    },
+    {
+      "id": 7,
+      "title": "Tìm",
+      "artist": "Jack, K-ICM",
+      "duration": "3:55",
+      "image": "https://via.placeholder.com/200/95E1D3/ffffff?text=Top+3",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+      "year": 2021,
+      "genre": "V-Pop",
+      "likes": 38900
+    },
+    {
+      "id": 8,
+      "title": "A Thousand Years",
+      "artist": "Christina Perri",
+      "duration": "4:10",
+      "image": "https://via.placeholder.com/200/F38181/ffffff?text=Top+4",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+      "year": 2011,
+      "genre": "Pop",
+      "likes": 41200
+    },
+    {
+      "id": 9,
+      "title": "Sài Gòn Trong Lòng",
+      "artist": "Tố Ngọc",
+      "duration": "3:30",
+      "image": "https://via.placeholder.com/200/FDCB6E/ffffff?text=Top+5",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+      "year": 2020,
+      "genre": "V-Pop",
+      "likes": 22100
+    },
+    {
+      "id": 10,
+      "title": "Shape of You",
+      "artist": "Ed Sheeran",
+      "duration": "3:53",
+      "image": "https://via.placeholder.com/200/FF6B6B/ffffff?text=Song+10",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+      "year": 2017,
+      "genre": "Pop",
+      "likes": 58000
+    },
+    {
+      "id": 11,
+      "title": "Someone You Loved",
+      "artist": "Lewis Capaldi",
+      "duration": "3:01",
+      "image": "https://via.placeholder.com/200/4ECDC4/ffffff?text=Song+11",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+      "year": 2018,
+      "genre": "Pop",
+      "likes": 48500
+    },
+    {
+      "id": 12,
+      "title": "Perfect",
+      "artist": "Ed Sheeran",
+      "duration": "4:23",
+      "image": "https://via.placeholder.com/200/95E1D3/ffffff?text=Song+12",
+      "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+      "year": 2014,
+      "genre": "Pop",
+      "likes": 55300
+    }
+  ],
+  "playlists": [
+    {
+      "id": 1,
+      "title": "Nhạc Việt Hay Nhất",
+      "description": "120 bài hát • Poetic Lounge",
+      "image": "https://via.placeholder.com/250/6C5CE7/ffffff?text=Playlist+1",
+      "songIds": [1, 5, 7, 9]
+    },
+    {
+      "id": 2,
+      "title": "Pop Tháng 3",
+      "description": "85 bài hát • Hot Charts",
+      "image": "https://via.placeholder.com/250/00B894/ffffff?text=Playlist+2",
+      "songIds": [2, 4, 10, 11]
+    },
+    {
+      "id": 3,
+      "title": "Nhạc Cho Tập Gym",
+      "description": "200 bài hát • Workout Mix",
+      "image": "https://via.placeholder.com/250/A29BFE/ffffff?text=Playlist+3",
+      "songIds": [3, 6, 8, 10]
+    },
+    {
+      "id": 4,
+      "title": "Chill & Relax",
+      "description": "150 bài hát • Study Music",
+      "image": "https://via.placeholder.com/250/FD79A8/ffffff?text=Playlist+4",
+      "songIds": [2, 8, 11, 12]
+    }
+  ]
+}

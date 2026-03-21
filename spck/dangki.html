@@ -1,43 +1,106 @@
 <!DOCTYPE html>
-
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChillBeatz - Đăng Ký</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>ChillBeatz - DangKi</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <div class="auth-container">
+        <!-- LEFT: Intro -->
+        <div class="auth-intro">
+            <div class="intro-content">
+                <div class="logo-intro">
+                    <i class="fas fa-music"></i>
+                    <h1>ChillBeatz</h1>
+                </div>
+                <h2>Tham Gia Cộng Đồng Âm Nhạc</h2>
+                <p>Khám phá, nghe và chia sẻ những bài hát yêu thích cùng hàng triệu người dùng trên toàn thế giới</p>
+                <div class="features">
+                    <div class="feature-item">
+                        <i class="fas fa-users"></i>
+                        <span>Kết Nối Với Cộng Đồng</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-star"></i>
+                        <span>Khám Phá Nhạc Mới</span>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-```
-<div class="register-box">
-    <h2>Đăng Ký</h2>
+        <!-- RIGHT: Register Form -->
+        <div class="auth-form-container">
+            <div class="auth-form">
+                <h2>Đăng Ký</h2>
+                <p class="form-subtitle">Tạo tài khoản ChillBeatz miễn phí</p>
 
-  
-    <form id="registerForm">
+                <form id="registerForm">
+                    <div class="form-group">
+                        <label for="username">Tên Đăng Nhập</label>
+                        <div class="input-wrapper">
+                            <i class="fas fa-user"></i>
+                            <input type="text" id="username" name="username" placeholder="Chọn tên đăng nhập" required>
+                        </div>
+                    </div>
 
-        <input type="text" id="username" name="username" placeholder="Tên đăng nhập" required>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <div class="input-wrapper">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" id="email" name="email" placeholder="Nhập email của bạn" required>
+                        </div>
+                    </div>
 
-        <input type="email" id="email" name="email" placeholder="Email" required>
+                    <div class="form-group">
+                        <label for="password">Mật Khẩu</label>
+                        <div class="input-wrapper">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" id="password" name="password" placeholder="Mật khẩu ít nhất 6 ký tự" required>
+                        </div>
+                    </div>
 
-        <input type="password" id="password" name="password" placeholder="Mật khẩu" required>
+                    <div class="form-group">
+                        <label for="confirmPassword">Xác Nhận Mật Khẩu</label>
+                        <div class="input-wrapper">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Nhập lại mật khẩu" required>
+                        </div>
+                    </div>
 
-   
-        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Xác nhận mật khẩu" required>
+                    <div class="form-agreement">
+                        <label>
+                            <input type="checkbox" name="agree" required>
+                            <span>Tôi đồng ý với <a href="#">Điều khoản Dịch vụ</a> và <a href="#">Chính sách Bảo mật</a></span>
+                        </label>
+                    </div>
 
-        <button type="submit">Đăng Ký</button>
+                    <button type="submit" class="btn-submit">Đăng Ký Ngay</button>
+                </form>
 
-    </form>
+                <div class="divider">
+                    <span>HOẶC</span>
+                </div>
 
-    <p class="form-footer">
-        Đã có tài khoản? <a href="dangnhap.html">Đăng nhập</a>
-    </p>
-</div>
+                <div class="social-login">
+                    <button type="button" class="btn-social btn-google">
+                        <i class="fab fa-google"></i> Google
+                    </button>
+                    <button type="button" class="btn-social btn-facebook">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </button>
+                </div>
 
-<footer>© 2026 ChillBeatz</footer>
+                <p class="form-footer">
+                    Đã có tài khoản? <a href="dangnhap.html">Đăng nhập</a>
+                </p>
+            </div>
+        </div>
+    </div>
 
-<script src="js/register.js"></script>
-```
-
+    <script src="js/register.js"></script>
 </body>
 </html>

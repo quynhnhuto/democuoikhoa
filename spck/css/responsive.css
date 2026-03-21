@@ -1,0 +1,158 @@
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 1200px) {
+    .nav-container {
+        padding: 15px 20px;
+        gap: 20px;
+    }
+
+    .search-box {
+        width: 200px;
+    }
+
+    .hero-content h1 {
+        font-size: 40px;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-left {
+        gap: 20px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .search-box {
+        width: 150px;
+        padding: 6px 10px;
+    }
+
+    .nav-right {
+        gap: 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .featured-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 15px;
+    }
+
+    .playlist-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .featured-section h2,
+    .playlist-section h2,
+    .trending-section h2 {
+        font-size: 28px;
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-container {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .nav-left {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .nav-right {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .search-box {
+        width: 100%;
+    }
+
+    .user-menu {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .hero-section {
+        padding: 50px 15px;
+    }
+
+    .hero-content h1 {
+        font-size: 24px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+    }
+
+    .btn-primary {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+
+    .featured-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .playlist-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .trending-item {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .trending-actions {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .featured-section,
+    .playlist-section,
+    .trending-section {
+        padding: 30px 0;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .footer {
+        padding: 30px 15px 15px;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}

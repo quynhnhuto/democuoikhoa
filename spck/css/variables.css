@@ -1,0 +1,37 @@
+/* ===== GLOBAL VARIABLES & RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #1DB954;
+    --secondary-color: #191414;
+    --tertiary-color: #282828;
+    --text-light: #FFFFFF;
+    --text-muted: #B3B3B3;
+    --border-color: #404040;
+    --hover-color: #1ed760;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.main-content {
+    min-height: calc(100vh - 100px);
+}
